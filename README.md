@@ -1,6 +1,8 @@
-# Remove Medium Paywall
+# Remove Medium Paywall (Alpha 0.4)
 ![imagen](https://github.com/livrasand/RemoveMediumPaywall/assets/104039397/4f0ab270-6c28-4622-971a-60b67dbdc87e)
 
+> [!CAUTION]
+> The script is in Alpha phase, I have only created the repository to have control over the development. It works on some articles, on others it doesn't, I work on making it dynamic.
 
 The intrusive "The writer made this a members-only story" message is annoying. This open-source project aims to address this issue by providing a solution to bypass all “Members-only story” paywalls for Medium articles. This repository contains a userscript designed to remove the annoying "The writer made this a members-only story". Follow the instructions below to get started.
 
