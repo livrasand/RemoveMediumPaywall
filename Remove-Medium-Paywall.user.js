@@ -2,7 +2,7 @@
 // @name         Remove Medium Paywall
 // @namespace    http://tampermonkey.net/
 // @version      1.1.0
-// @description  Automatically fetch full content of member-only stories on Medium and remove specific div with custom context menu
+// @description  Automatically fetch full content of member-only stories on Medium
 // @author       Livrädo Sandoval
 // @match        *://*/*
 // @icon         https://miro.medium.com/v2/1*m-R_BkNf1Qjr1YbyOIJY2w.png
