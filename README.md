@@ -9,8 +9,11 @@ The intrusive "The writer made this a members-only story" message is annoying. T
    If you haven't already, you need to install the Tampermonkey browser extension. You can find it for various browsers:
    - [Tampermonkey for Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
    - [Tampermonkey for Firefox](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)
+   - [Tampermonkey for Safari](http://tampermonkey.net/?browser=safari)
    - [Tampermonkey for Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd)
    - [Tampermonkey for Opera/OperaGX](https://addons.opera.com/en-gb/extensions/details/tampermonkey-beta/)
+
+**For iOS you can use [Userscripts](https://apps.apple.com/app/userscripts/id1463298887)**
 
 2. **Install the Script**:
    [Click Here and Press Install](Remove-Medium-Paywall.user.js?raw=True).
