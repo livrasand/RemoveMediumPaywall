@@ -4,7 +4,6 @@
 The intrusive "The writer made this a members-only story" message is annoying. This open-source project aims to address this issue by providing a solution to bypass all “Members-only story” paywalls for Medium articles. This repository contains a userscript designed to remove the annoying "The writer made this a members-only story". Follow the instructions below to get started.
 
 ## Installation
-
 1. **Install Tampermonkey**:
    If you haven't already, you need to install the Tampermonkey browser extension. You can find it for various browsers:
    - [Tampermonkey for Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
@@ -13,13 +12,25 @@ The intrusive "The writer made this a members-only story" message is annoying. T
    - [Tampermonkey for Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd)
    - [Tampermonkey for Opera/OperaGX](https://addons.opera.com/en-gb/extensions/details/tampermonkey-beta/)
 
-**For iOS you can use [Userscripts](https://apps.apple.com/app/userscripts/id1463298887)**
+**For iOS or iPadOS you can use [Userscripts](https://apps.apple.com/app/userscripts/id1463298887)**
+After installing the iOS App, you need two main steps to make the extension work:
 
-2. **Install the Script**:
-   [Click Here and Press Install](Remove-Medium-Paywall.user.js?raw=True).
+- **Open the App and set a directory** (For saving and loading userscripts)
+  - After Userscripts for ios v1.5.0, a local default directory will be set automatically
+  - In earlier versions please click the `Set Userscripts Directory` button and select the directory
+- **Enable the extension in Safari** (And grant permissions)
 
-3. **Enable the Script**:
-   Enable the script by clicking the switch next to the script name in the Tampermonkey Dashboard.
+  - Manage extensions from Settings App (Settings > Safari > Extensions) or Safari App (`AA` button on iPhone, `extension-icon` on iPad, also where you open the extension's `popup` interface)
+  - For optimal experience it's recommended that you `Always Allow` Userscripts for `All Websites`
+
+There are two main ways to install a user script from the iOS version:
+
+- Visit any `.user.js` URL in Safari, then open the extension `popup` and you will see an installation prompt
+- You can also save `.user.js` files directly to the Userscripts directory you set above
+
+2. **Install the Script**: [Click here and press install](Remove-Medium-Paywall.user.js?raw=True). **Install the Script for iOS o iPadOS**: [Click here](Remove-Medium-Paywall-for-iOS.user.js?raw=True).
+
+3. **Enable the Script**: Enable the script by clicking the switch next to the script name in the Tampermonkey Dashboard.
 
 4. **Accept this:**
 
